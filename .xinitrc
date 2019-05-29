@@ -1,7 +1,7 @@
 #!/bin/sh
 
 exec setxkbmap br &
-feh --bg-scale /home/kill/Wallpapers/dark.jpg
+feh --bg-scale /home/kill/.wallpapers/bsd.jpg
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/usr/local/etc/X11/xinit/.Xresources
@@ -50,4 +50,4 @@ if [ -d /usr/local/etc/X11/xinit/xinitrc.d ] ; then
 	unset f
 fi
 
-exec i3
+exec dwm
